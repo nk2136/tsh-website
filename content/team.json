@@ -1,0 +1,68 @@
+{
+  "members": [
+    {
+      "name": "Binesh",
+      "role": "Founder / HR / Admin",
+      "initials": "BN",
+      "tint": "terracotta",
+      "quote": "Staffing is just listening, written down twice.",
+      "bio": "Binesh started TSH in 2020 with a thesis the industry mostly forgot: that placing engineers is a craft, not a numbers game. He runs founder, HR, and admin out of the same notebook — and somehow keeps all three honest. Before TSH, he spent a decade inside the staffing machine and watched what speed-at-any-cost did to candidates. He left to build the slower, quieter version. The one we're still building."
+    },
+    {
+      "name": "Shovit",
+      "role": "Senior Marketer / Recruiter",
+      "initials": "SH",
+      "tint": "moss",
+      "quote": "The right submission beats ten clever ones.",
+      "bio": "Shovit leads sourcing across our QA and Java desks, and most of the long-running vendor relationships are his. He's the person who notices when a JD doesn't quite match the team behind it — and asks before submitting."
+    },
+    {
+      "name": "Hardik",
+      "role": "Marketer / Recruiter",
+      "initials": "HK",
+      "tint": "terracotta",
+      "quote": "Read the role twice. Then read the team.",
+      "bio": "Hardik runs candidate outreach with a patience that the rest of us occasionally borrow. He treats first calls like first impressions — because they are — and writes notes most recruiters wouldn't bother to take."
+    },
+    {
+      "name": "Anurodh",
+      "role": "Marketer / Recruiter",
+      "initials": "AN",
+      "tint": "moss",
+      "quote": "A good match looks boring on paper. That's the tell.",
+      "bio": "Anurodh focuses on mid-to-senior placements, mostly Java backend. He's quietly relentless about pipeline hygiene and has an unsettling memory for which client wanted what, three quarters ago."
+    },
+    {
+      "name": "Suvani",
+      "role": "Marketer / Recruiter",
+      "initials": "SV",
+      "tint": "terracotta",
+      "quote": "Honest representation is just paperwork done with a conscience.",
+      "bio": "Suvani handles candidate representation end-to-end — submission, prep, follow-through. If a rate doesn't add up or a JD is doing too much, she's the one who flags it before anything goes out the door."
+    },
+    {
+      "name": "Nikesh",
+      "role": "Interview Helper",
+      "initials": "NK",
+      "tint": "moss",
+      "quote": "An interview is a conversation. We just rehearse the awkward parts.",
+      "bio": "Nikesh runs mock interviews for our QA candidates — automation, frameworks, the whole stack. He's an engineer first, which is the entire point: real engineers helping real engineers prepare for real rooms."
+    },
+    {
+      "name": "Akash",
+      "role": "Interview Helper",
+      "initials": "AK",
+      "tint": "terracotta",
+      "quote": "If you can explain it slowly, you understand it well.",
+      "bio": "Akash sits with Java candidates before their loops — Spring, microservices, JVM, the unglamorous corners. He has a knack for the question behind the question, which is usually the one that gets asked."
+    },
+    {
+      "name": "Vivek",
+      "role": "Interview Helper",
+      "initials": "VK",
+      "tint": "moss",
+      "quote": "Confidence is just rehearsed clarity.",
+      "bio": "Vivek splits time between QA and platform interview prep, and runs the system-design walkthroughs for our senior candidates. He'll tell you when an answer is fine — and when it's only fine — which is exactly what you want before a panel."
+    }
+  ]
+}

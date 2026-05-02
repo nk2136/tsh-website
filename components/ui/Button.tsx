@@ -20,6 +20,11 @@ type ButtonAsButton = CommonProps &
 type ButtonAsLink = CommonProps & {
   href: string;
   external?: boolean;
+  target?: string;
+  rel?: string;
+  onClick?: React.MouseEventHandler<HTMLAnchorElement>;
+  id?: string;
+  "aria-label"?: string;
 };
 
 type ButtonProps = ButtonAsButton | ButtonAsLink;
@@ -66,13 +71,16 @@ export function Button(props: ButtonProps) {
   );
 
   if ("href" in props && props.href !== undefined) {
-    const { href, external, ...rest } = props as ButtonAsLink;
-    if (external) {
+    const linkProps = props as ButtonAsLink;
+    if (linkProps.external) {
       return (
         <a
-          href={href}
-          target="_blank"
-          rel="noopener noreferrer"
+          href={linkProps.href}
+          target={linkProps.target ?? "_blank"}
+          rel={linkProps.rel ?? "noopener noreferrer"}
+          aria-label={linkProps["aria-label"]}
+          id={linkProps.id}
+          onClick={linkProps.onClick}
           className={classes}
         >
           {inner}
@@ -80,13 +88,29 @@ export function Button(props: ButtonProps) {
       );
     }
     return (
-      <Link href={href} className={classes} {...(rest as object)}>
+      <Link
+        href={linkProps.href}
+        target={linkProps.target}
+        aria-label={linkProps["aria-label"]}
+        id={linkProps.id}
+        onClick={linkProps.onClick}
+        className={classes}
+      >
         {inner}
       </Link>
     );
   }
 
-  const { ...buttonRest } = props as ButtonAsButton;
+  const {
+    variant: _v,
+    size: _s,
+    withArrow: _w,
+    className: _c,
+    children: _ch,
+    ...buttonRest
+  } = props as ButtonAsButton;
+  void _v; void _s; void _w; void _c; void _ch;
+
   return (
     <button className={classes} {...buttonRest}>
       {inner}

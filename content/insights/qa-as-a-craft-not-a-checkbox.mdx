@@ -1,0 +1,40 @@
+---
+title: "QA as a craft, not a checkbox."
+excerpt: "There's a difference between a QA engineer who closes tickets and one who keeps the team honest. The gap is small to describe and enormous to live with."
+author: "Priya Iyer"
+publishedAt: "2026-04-08"
+category: "Engineering"
+coverNote: "Notes from the long apprenticeship."
+---
+
+The phrase *QA engineer* covers a remarkable amount of ground. It can mean the person who clicks through a checkout flow on a Friday afternoon and signs off on the release. It can also mean the person who, three weeks before that release, noticed that the order-service was emitting a subtly wrong event whenever the warehouse switched cutoff times — and quietly fixed the contract before anyone shipped against it. Both people show up under the same job title. Both write tests. They are not, in any meaningful sense, doing the same job.
+
+The good ones — the ones we're trying to find when a client asks us for *a senior QA* — are people who treat testing the way good developers treat code: as a craft with internal standards, taste, and a long apprenticeship. They are rarer than the market admits.
+
+## What separates them, in practice
+
+The honest answer is *judgment*, and judgment is hard to write a job description for. But there are patterns. Here are a few we've learned to look for over six years of vetting QA candidates.
+
+The first is contract-mindedness. A great QA engineer does not write end-to-end tests as a substitute for thinking about service contracts. They notice when a producer changes the shape of an event and the consumer hasn't been told. They reach for *consumer-driven contract testing* — Pact, Spring Cloud Contract, the equivalent in whatever stack — before they reach for a longer Selenium suite. They know that an end-to-end test is a beautiful, expensive way to find out something that a contract test would have caught in milliseconds.
+
+The second is *observability for tests themselves*. The mediocre QA writes a test, watches it pass, and moves on. The good QA writes a test, instruments it with enough metadata that when it fails six weeks later at 2 a.m., the on-call engineer can tell within thirty seconds whether it was a flake, an environment issue, or a real regression. They tag tests by feature area. They emit timing information. They treat the test suite as a system that the team has to *operate*, not a backlog of green checkmarks.
+
+> Flake is not a quirk of the test suite. Flake is information. The good QA reads it.
+
+The third is engineering judgment in flake triage. Every team has a tolerance for flake — a level of test instability they've quietly accepted. Below that level, flakes get retried. Above it, the team panics and rewrites everything. The skilled QA lives in the middle. They sort flakes into causes: timing, ordering, shared state, network, real-but-rare. They know when to fix the test, when to fix the system under test, and when to escalate a quietly broken thing that nobody else has noticed yet.
+
+## What it looks like in an interview
+
+We've stopped asking QA candidates to whiteboard a test plan. The exercise is too easy to fake. Instead we hand them a real-ish failure scenario — *here's a flaky integration test, here are the last fifty runs, here's what the system does* — and we ask them to talk through it. The honest answer to "what would you do here" is almost always "I'd want to look at three things first." That's fine. We listen for which three.
+
+We listen for whether the candidate considers the test code itself as a possible suspect or assumes the bug is in the system. We listen for whether they reach for re-runs (a yellow flag, depending) or for a hypothesis. We listen for whether they ask about the *deploy correlation* — did anything change in the last 48 hours that might explain the new behavior — because the candidates who ask that question have done the work before.
+
+## Why headcount-filling QA is so common
+
+Because it's cheap, and the cost shows up later. A team can hire two mediocre QAs faster than it can hire one genuinely senior one. The numbers look fine for a quarter. By month six, the team has a brittle test suite, a backlog of flakes nobody trusts, and a slow erosion of the engineering team's confidence in their own releases. By month twelve, the team is talking about rewriting the test infrastructure. The cost of *not* hiring well in QA tends to be paid in delayed releases and quiet morale loss, neither of which fits cleanly into a budget line.
+
+We push back on this with clients, gently. *You don't have a coverage problem. You have a craft problem.* It's an unpopular thing to say in a kickoff. It's almost always the right thing.
+
+## The slightly uncomfortable conclusion
+
+QA is a senior discipline. Treating it as a junior one is a choice, and the choice has consequences that compound. The teams who get this — and there are more of them every year — are the teams whose engineers stay. We notice. We try to send our best people there.

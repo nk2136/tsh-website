@@ -1,0 +1,117 @@
+[
+  {
+    "slug": "senior-recruiter-qa-track",
+    "title": "Senior Recruiter, QA Track",
+    "type": "Full-time",
+    "location": "Remote — US",
+    "department": "Talent",
+    "summary": "Own the candidate side of our QA practice — sourcing, vetting, prepping, and standing behind QA engineers placed into client engagements. This is a long-arc role for someone who already knows the difference between a manual tester and a contract-testing zealot, and who'd rather place ten engineers carefully than fifty hastily.",
+    "responsibilities": [
+      "Source and vet QA candidates across automation, performance, and SDET-level work — primarily Selenium, Playwright, Cypress, REST Assured, JMeter, and K6.",
+      "Run technical screens that go beyond keyword matching. We expect a working understanding of contract testing, flake triage, and modern test architecture.",
+      "Build and maintain relationships with a long-term bench. Most of our best placements come from candidates we've known for two-plus years.",
+      "Prep candidates for client interviews with substance, not scripts.",
+      "Negotiate rates honestly, in plain English, on both sides of the table.",
+      "Stay engaged with placed engineers through the six-month check-in and beyond.",
+      "Collaborate with the Java track recruiter and Operations Lead on cross-staffed engagements."
+    ],
+    "qualifications": [
+      "5+ years recruiting in IT staffing or in-house tech recruiting, with at least 2 years focused on QA roles.",
+      "Working vocabulary in QA tooling — you should be able to tell a candidate's story to a hiring manager without leaning on the resume.",
+      "Track record of placements that stuck. We'll ask for retention numbers.",
+      "Calm, deliberate communication style. We are not a firm of high-volume cold callers.",
+      "Comfortable with vendor-network work (MSP/VMS) and direct client relationships."
+    ],
+    "niceToHave": [
+      "Background in QA before recruiting (yes, really — we've hired a few of these, they're excellent).",
+      "Experience with regulated industries (healthcare, financial services, insurance).",
+      "Existing network of senior QA engineers in the US tech market."
+    ],
+    "compensationNote": "Base + commission, no draw games. We share comp bands openly during the second conversation."
+  },
+  {
+    "slug": "recruiter-java-track",
+    "title": "Recruiter, Java Track",
+    "type": "Full-time",
+    "location": "Remote — US",
+    "department": "Talent",
+    "summary": "Run the candidate pipeline for our Java practice — mid-to-senior backend engineers across Spring, microservices, and platform work. You'll work alongside our QA-track recruiter, sharing a bench, a discipline, and a refusal to spam the market.",
+    "responsibilities": [
+      "Source mid-to-senior Java engineers across Spring Boot, Kafka, JPA, AWS, and Kubernetes stacks.",
+      "Conduct first-pass technical screens with enough depth to know which engineers we should and shouldn't put forward.",
+      "Manage candidate relationships through the full arc: intake, submission, interview prep, offer, start, and check-in.",
+      "Write submission notes that hiring managers actually read — short, specific, on-point.",
+      "Coordinate with our Operations Lead on contract paperwork, onboarding, and timesheet rhythm.",
+      "Show up at the six-month check-in for engineers you placed."
+    ],
+    "qualifications": [
+      "3+ years recruiting Java engineers in the US market, agency or in-house.",
+      "Comfortable reading a Java resume — you should be able to spot a Spring Boot engineer who hasn't actually used Spring Boot since 2019.",
+      "Strong written communication. Most of our submissions are read before any call happens.",
+      "Honest relationship style. We don't do hard closes.",
+      "Familiar with contract-to-hire, direct placement, and pure contract engagements."
+    ],
+    "niceToHave": [
+      "Background in Java development or technical project management.",
+      "Experience working with VMS systems (Beeline, Fieldglass, etc.) without losing your soul.",
+      "Existing relationships with mid-market and enterprise hiring managers."
+    ],
+    "compensationNote": "Base + commission. Bands shared during the second conversation; the floor is comfortably above the agency-recruiter mean."
+  },
+  {
+    "slug": "interview-helper-senior-java",
+    "title": "Interview Helper — Senior Java Engineer",
+    "type": "Contract",
+    "location": "Remote — US",
+    "department": "Talent",
+    "summary": "Part-time contract role for a senior Java engineer who wants to spend a few hours a week helping our candidates prep for technical interviews. You'll run mock interviews, give honest feedback, and occasionally sit in as a technical advisor on our intake calls. This is not a recruiting job. It's a craft job.",
+    "responsibilities": [
+      "Run 60-minute mock technical interviews with TSH candidates (mostly Java, occasionally adjacent stacks).",
+      "Provide written feedback the candidate can actually act on — what they nailed, what they fumbled, what they should brush up on before the real interview.",
+      "Sit in on a small number of intake calls each month to help us assess senior-level candidates.",
+      "Stay current enough to coach — Spring Boot, modern testing, system design at the service-architecture level.",
+      "Occasionally help us calibrate a hiring manager's bar when we're not sure if their expectations match the rate they're offering."
+    ],
+    "qualifications": [
+      "8+ years of Java engineering experience, with at least 3 at senior or staff level.",
+      "Strong fluency in Spring, JVM internals at a working level, distributed systems fundamentals.",
+      "Genuine interest in coaching. Not every great engineer wants to do this work; we're looking for the ones who do.",
+      "Available for 4-8 hours per week, scheduled in advance."
+    ],
+    "niceToHave": [
+      "Prior experience interviewing for FAANG or comparable rigor environments.",
+      "Open-source contributions or technical writing we can read.",
+      "Background in a regulated industry (extra context for our healthcare and financial services clients)."
+    ],
+    "compensationNote": "Hourly contract, paid biweekly. Rate set during the offer conversation based on experience and availability."
+  },
+  {
+    "slug": "operations-lead",
+    "title": "Operations Lead",
+    "type": "Full-time",
+    "location": "Remote — US",
+    "department": "Operations",
+    "summary": "Run the unsexy, load-bearing middle of TSH — contracts, payroll cadence, vendor compliance, candidate onboarding paperwork, and the slow accumulation of internal tooling that lets the recruiting team focus on actually recruiting. This is a senior, autonomous role. We'd like you to help shape it.",
+    "responsibilities": [
+      "Own contract execution across direct placements, contract-to-hire, and pure contract engagements.",
+      "Manage MSP and VMS onboarding flows for new clients and new candidates.",
+      "Run payroll cadence and the small army of edge cases (mid-cycle starts, geographic moves, status changes) that come with a W-2 contract bench.",
+      "Coordinate with our outside accounting and legal partners on quarter-close, audit prep, and contract review.",
+      "Build and maintain the lightweight internal tooling that keeps the team out of spreadsheets — submission tracking, comp transparency, retention metrics.",
+      "Be the calm voice on the line when something at a client gets weird mid-engagement."
+    ],
+    "qualifications": [
+      "5+ years in staffing operations, agency operations, or a comparable people-and-paperwork role at a services firm.",
+      "Genuine fluency with employer-of-record obligations: payroll taxes, state UI, workers' comp, basic compliance.",
+      "Comfort with VMS systems (Beeline, Fieldglass, SAP Fieldglass, etc.) and MSP relationships.",
+      "Documentation reflex. If it happens twice, you write it down. If it happens five times, you tool it.",
+      "Calm temperament. You will be the person clients call when something goes sideways."
+    ],
+    "niceToHave": [
+      "Light technical background — SQL, basic scripting, comfort in a Notion or Linear-shaped tool.",
+      "Experience working across multi-state employment (we hire engineers in most US states).",
+      "Curiosity about the engineering side of the work, even if you're not on it."
+    ],
+    "compensationNote": "Salary plus a meaningful operations bonus tied to retention and clean-close metrics. Bands shared during the second conversation."
+  }
+]

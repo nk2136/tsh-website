@@ -3,6 +3,10 @@ import { Fraunces, Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Nav } from "@/components/nav/Nav";
 import { Footer } from "@/components/footer/Footer";
+import {
+  OrganizationJsonLd,
+  WebSiteJsonLd,
+} from "@/components/seo/StructuredData";
 
 const fraunces = Fraunces({
   variable: "--font-fraunces",
@@ -73,6 +77,8 @@ export default function RootLayout({
       className={`${fraunces.variable} ${inter.variable} ${jetBrainsMono.variable} h-full antialiased`}
     >
       <body className="grain min-h-full bg-bone text-ink flex flex-col">
+        <OrganizationJsonLd />
+        <WebSiteJsonLd />
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-50 focus:bg-ink focus:text-bone focus:px-4 focus:py-2 focus:rounded-md"
